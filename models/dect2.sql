@@ -1,6 +1,7 @@
 {{
     config(
-        materialized='table'
+        materialized='table',
+        transient='true'
     )
 }}
 select 2 as id
